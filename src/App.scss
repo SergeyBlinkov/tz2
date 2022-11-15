@@ -1,0 +1,24 @@
+.input-date {
+  &::-webkit-calendar-picker-indicator {
+     display: none}
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.destinationItem {
+  .spaceLine {
+    display: block;
+    content: '';
+    top: 35px;
+    left: 19px;
+    width: 266px;
+    height: 2px;
+  }
+}
+.doubleItem {
+  display: grid;
+  grid-template-columns: 785px 190px;
+  width: 980px;
+}
